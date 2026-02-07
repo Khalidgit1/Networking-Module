@@ -49,6 +49,8 @@ The task for this networking assignment was to purchase my own domain, deploy an
 Example command:
 ssh -i "my-key.pem" ubuntu@ec2-ip-address
 ​
+
+
 **Step 4: Install and start NGINX on EC2**
 
 Once connected to the instance, run the following commands in order:
@@ -65,6 +67,8 @@ Once connected to the instance, run the following commands in order:
 
 These commands update package lists, install NGINX, start the service, enable it to start on boot, and check its status.
 ​
+
+
 **Step 5: Point your domain to the EC2 IP**
 
 In Cloudflare, go to your domain’s DNS settings and create two A records.
@@ -73,9 +77,12 @@ In Cloudflare, go to your domain’s DNS settings and create two A records.
 ​
 - Type: A, Name: www (e.g. www.khalidomar1.com), IPv4 address: <EC2_PUBLIC_IP>, TTL: Auto, Proxy status: DNS only.
 ​
+
+
 Save the records so that Cloudflare DNS points your domain to the EC2 public IP address.
 ​
 <img width="940" height="411" alt="image" src="https://github.com/user-attachments/assets/793222ab-5089-463b-8876-98a20b6c03e1" />
+
 
 **Step 6: Confirm DNS is live**
 
