@@ -100,6 +100,8 @@ At this point, visiting your domain (for example, khalidomar1.com) in a browser 
 
 Through this assignment, I gained a clearer understanding of how domain names, DNS records, and public IP addresses work together to make a website accessible on the internet. I learned how to provision an EC2 instance, configure security groups, and securely access a remote Linux server via SSH. I also became more comfortable installing and managing a web server (NGINX) using basic Linux commands. Finally, I saw how changes in Cloudflare DNS settings propagate and how to verify them using tools like nslookup and dig.
 ​
+
+
 **Challenge I faced**
 
 A key challenge I encountered was SSH’ing into the EC2 instance using the private key on my Windows machine. I had saved the .pem file on my local computer, but locating the exact file path and referencing it correctly in the SSH command was difficult on Windows. This issue forced me to pay closer attention to how file paths differ between operating systems and how terminal tools on Windows (such as PowerShell or WSL) handle paths. Once I solved this, I was able to connect successfully, which improved my understanding of SSH authentication and local environment configuration.
