@@ -84,6 +84,7 @@ Save the records so that Cloudflare DNS points your domain to the EC2 public IP 
 <img width="940" height="411" alt="image" src="https://github.com/user-attachments/assets/793222ab-5089-463b-8876-98a20b6c03e1" />
 
 
+
 **Step 6: Confirm DNS is live**
 
 From your local machine, verify that DNS is correctly resolving to your EC2 public IP.
@@ -102,6 +103,7 @@ If configured correctly, these commands should return the EC2 public IP.
 At this point, visiting your domain (for example, khalidomar1.com) in a browser should show the NGINX default landing page hosted on your EC2 instance.
 
 <img width="940" height="504" alt="image" src="https://github.com/user-attachments/assets/73253d15-e818-4e8e-bbad-765e0adfc476" />
+
 
 **What I learned**
 
